@@ -1,4 +1,4 @@
-FROM python:3.9.11-slim-buster
+FROM python:3.11-slim-buster
 
 
 # FFMPG 3.2.4 recommended - https://thumbor.readthedocs.io/en/latest/gifv.html#gifv
