@@ -9,7 +9,7 @@ RUN apt-get update && \
     ln -s /usr/bin/ffmpeg /usr/local/bin/ffmpeg && \
     ln -s /usr/bin/ffprobe /usr/local/bin/ffprobe
 
-RUN pip install thumbor pycurl thumbor-video-engine tc_aws thumbor-plugins-gifv opencv-python-headless
+RUN pip install thumbor pycurl thumbor-video-engine tc_aws thumbor-plugins-gifv opencv-python-headless thumbor-vips-engine
 
 COPY thumbor.conf /etc/thumbor.conf
 
